@@ -1,0 +1,154 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.navigation-wrapper {
+    background-color: black;
+    color: #cbcbcb;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    width: auto;
+    align-items: center;
+    padding: 10px;
+   
+    
+}
+.navigation-wrapper > .logo > img {
+    height: 50%;
+    width: 100%;
+    
+}
+.navigation-wrapper > .logo {
+    width: 20%;
+}
+
+.navigation-wrapper > .center-column{
+    display: grid;
+    padding-left: 5px;
+    width: 30%;
+}
+
+.navigation-wrapper > .center-column > .EXPLORE {
+    color: gold;
+}
+
+.navigation-wrapper > .center-column > .nav-links {
+    display: flex;
+    justify-content: space-between
+}
+.navigation-wrapper > .center-column > .nav-links > .nav-link-5 {
+    color: gray;
+}
+
+
+.navigation-wrapper > .right-column {
+    width: 20%;
+    align-items: end;
+}
+.navigation-wrapper > .right-column > i {
+    color: #85837f;
+    font-size: 1.5rem;
+}
+.btn {
+    background-color: #504e4a;
+    color: #fdfdfd;
+    font-size: 1.25rem;
+    padding: 5px 15px;
+    border-radius: 2px;
+    
+}
+.btn > i {
+    color: limegreen;
+}
+
+.body-codepen {
+    background: linear-gradient(rgb(65, 63, 63),black);
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 40px;
+    height: 660px;
+    
+}
+.body-codepen > .left > .impact-statement > .buttons > .green {
+    font-size: 2rem;
+    padding: 15px 15px;
+    border-radius: 2px;
+    background-color: limegreen;
+    color: black;
+}
+.body-codepen > .left > .impact-statement > p> i {
+    color: gold;
+}
+.body-codepen > .left > .impact-statement > .buttons > .black {
+    font-size: 2rem;
+    padding: 15px 15px;
+    border-radius: 2px;
+    background-color: black;
+    color: white;
+}
+.body-codepen > .left {
+    height: 100%;
+    width: 40%;
+    font-size: 2rem;
+   
+}
+
+.body-codepen > .right {
+    width: 40%;
+    
+}
+p {
+    font-size: 50px;
+    line-height: 50px;
+    color: rgb(131, 133, 136);
+}
+b {
+    color: white;
+
+}
+
+h4 {
+    color: white;
+}
+
+.blue {
+    color: rgb(105, 179, 209);
+}
+.body-codepen > .right > img {
+    width: 100%;
+    height: 92%;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(65, 63, 63);
+    border: 1px solid grey;
+    height: 75px;
+    align-items: center;
+    margin: auto;
+}
+h3 {
+    color: white;
+    border: 1px solid grey;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer > h3 > b {
+    font-family: 'Nothing You Could Do', cursive;    
+    font-size: 25px;
+}
+.black-bottom {
+    background-color: black;
+    height: 150px;
+}
